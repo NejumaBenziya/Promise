@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountryData</title>
+    <script src="countryData.js"></script>
+    <style>
+        img{
+            margin: 10px;
+            width: 18rem;
+            height: 15rem;
+            object-fit: contain;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="getCountryData()">Click me</button>
+    <div id="container"></div>
+</body>
+</html>
